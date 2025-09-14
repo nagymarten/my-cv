@@ -2,5 +2,11 @@
   "HOME": {
     "TITLE": "Welcome to my CV",
     "DESCRIPTION": "I am Martin Nagy, handball goalkeeper and software developer."
+  },
+  "NOT_FOUND": {
+    "TITLE": "Page not found",
+    "SUBTITLE": "We couldn’t find what you were looking for.",
+    "DESCRIPTION": "The page may have been moved or the URL is incorrect.",
+    "GO_HOME": "Go to Home"
   }
 }

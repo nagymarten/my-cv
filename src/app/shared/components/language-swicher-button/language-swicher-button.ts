@@ -17,6 +17,7 @@ export class LanguageSwicherButton implements OnInit {
   @Input() languages: Lang[] = [
     { name: 'English', code: 'en' },
     { name: 'Magyar', code: 'hu' },
+    { name: 'Deutsch', code: 'de' },
   ];
 
   selectedLanguage!: Lang;
@@ -25,6 +26,9 @@ export class LanguageSwicherButton implements OnInit {
   private readonly platformId = inject(PLATFORM_ID);
   private readonly browser = isPlatformBrowser(this.platformId);
 
+  constructor() {
+    this.initLanguage();
+  }
   ngOnInit(): void {
     this.initLanguage();
   }

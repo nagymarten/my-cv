@@ -8,13 +8,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-not-found',
   standalone: true,
-  imports: [
-    CommonModule,
-    ButtonModule,
-    CardModule,
-    RouterModule,
-    TranslateModule,
-  ],
+  imports: [CommonModule, ButtonModule, CardModule, RouterModule, TranslateModule],
   templateUrl: './not-found.html',
   styleUrl: './not-found.css',
 })
@@ -23,9 +17,11 @@ export class NotFound implements OnInit {
   private translate = inject(TranslateService);
 
   ngOnInit(): void {
-    const storedLang = localStorage.getItem('selectedLang') || 'hu';
+    const storedLang = localStorage.getItem('language') || 'hu';
     this.translate.setDefaultLang(storedLang);
     this.translate.use(storedLang);
+
+    console.log('localstorage', localStorage.getItem('language'));
 
     const darkMode = localStorage.getItem('isDarkMode');
     if (darkMode === 'true') {

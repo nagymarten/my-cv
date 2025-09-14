@@ -2,5 +2,11 @@
   "HOME": {
     "TITLE": "Üdvözlöm az önéletrajzomban",
     "DESCRIPTION": "Nagy Martin vagyok, kézilabda kapus és szoftverfejlesztő."
+  },
+  "NOT_FOUND": {
+    "TITLE": "Az oldal nem található",
+    "SUBTITLE": "Nem találtuk, amit keresel.",
+    "DESCRIPTION": "Lehet, hogy az oldal áthelyezésre került vagy a hivatkozás hibás.",
+    "GO_HOME": "Ugrás a főoldalra"
   }
 }
