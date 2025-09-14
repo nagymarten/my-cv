@@ -8,5 +8,12 @@
     "SUBTITLE": "Nem találtuk, amit keresel.",
     "DESCRIPTION": "Lehet, hogy az oldal áthelyezésre került vagy a hivatkozás hibás.",
     "GO_HOME": "Ugrás a főoldalra"
+  },
+  "NAV": {
+    "HOME": "Főoldal",
+    "ABOUT": "Rólam",
+    "PROJECTS": "Projektek",
+    "CAREER": "Pályafutás",
+    "CONTACT": "Kapcsolat"
   }
 }

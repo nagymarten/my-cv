@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-import { DarkModeButton } from '../../shared/components/dark-mode-button/dark-mode-button';
-import { LanguageSwicherButton } from '../../shared/components/language-swicher-button/language-swicher-button';
+import { Header } from '../../shared/components/header/header';
 
 @Component({
   selector: 'app-home',
-  imports: [TranslateModule, DarkModeButton, LanguageSwicherButton],
+  imports: [TranslateModule, Header],
   standalone: true,
   templateUrl: './home.html',
   styleUrl: './home.css',

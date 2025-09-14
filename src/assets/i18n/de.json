@@ -8,5 +8,12 @@
     "SUBTITLE": "Wir konnten nicht finden, wonach Sie gesucht haben.",
     "DESCRIPTION": "Die Seite wurde möglicherweise verschoben oder die URL ist falsch.",
     "GO_HOME": "Zur Startseite"
+  },
+  "NAV": {
+    "HOME": "Startseite",
+    "ABOUT": "Über mich",
+    "PROJECTS": "Projekte",
+    "CAREER": "Karriere",
+    "CONTACT": "Kontakt"
   }
 }

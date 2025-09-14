@@ -34,7 +34,7 @@ export class LanguageSwicherButton implements OnInit {
   }
 
   private initLanguage(): void {
-    const saved = this.browser ? localStorage.getItem('language') : null;
+    const saved = this.browser ? localStorage.getItem('language') : 'en';
     const fallback = 'hu';
     const browserPref = this.browser ? navigator.language?.slice(0, 2) ?? fallback : fallback;
 

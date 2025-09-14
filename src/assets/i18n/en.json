@@ -8,5 +8,12 @@
     "SUBTITLE": "We couldn’t find what you were looking for.",
     "DESCRIPTION": "The page may have been moved or the URL is incorrect.",
     "GO_HOME": "Go to Home"
+  },
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "PROJECTS": "Projects",
+    "CAREER": "Career",
+    "CONTACT": "Contact"
   }
 }

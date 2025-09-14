@@ -1,0 +1,14 @@
+<div class="card rounded-none shadow-none border-0">
+  <p-menubar [model]="items">
+    <ng-template pTemplate="start">
+      <a routerLink="/" class="flex items-center gap-2 font-semibold"> </a>
+    </ng-template>
+
+    <ng-template pTemplate="end">
+      <div class="flex items-center gap-3">
+        <app-language-swicher-button></app-language-swicher-button>
+        <app-dark-mode-button></app-dark-mode-button>
+      </div>
+    </ng-template>
+  </p-menubar>
+</div>
