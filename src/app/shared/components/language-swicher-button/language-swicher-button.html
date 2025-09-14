@@ -1,0 +1,27 @@
+<p-select
+  #languageSelectRef
+  [options]="languages"
+  [(ngModel)]="selectedLanguage"
+  optionLabel="name"
+  [filter]="false"
+  [showClear]="false"
+  placeholder="Select Language"
+  class="w-full md:w-40"
+  (onChange)="onLanguageChange($event, languageSelectRef)"
+>
+  <ng-template #selectedItem let-selectedOption>
+    <div class="flex items-center gap-2">
+      <img
+        [src]="getFlagUrl(selectedOption.code)"
+        style="width: 18px; height: 12px; object-fit: cover"
+      />
+      <div>{{ selectedOption.name }}</div>
+    </div>
+  </ng-template>
+  <ng-template let-lang #item>
+    <div class="flex items-center gap-2">
+      <img [src]="getFlagUrl(lang.code)" style="width: 18px; height: 12px; object-fit: cover" />
+      <div>{{ lang.name }}</div>
+    </div>
+  </ng-template>
+</p-select>
