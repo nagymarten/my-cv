@@ -5,7 +5,7 @@ import { MenuItem } from 'primeng/api';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { LanguageSwicherButton } from '../language-swicher-button/language-swicher-button';
-import { DarkModeButton } from '../dark-mode-button/dark-mode-button';
+import { DarkModeButton } from './dark-mode-button/dark-mode-button';
 import { AvatarModule } from 'primeng/avatar';
 import { InputTextModule } from 'primeng/inputtext';
 import { CommonModule } from '@angular/common';
