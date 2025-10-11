@@ -1,7 +1,7 @@
 {
   "HOME": {
-    "TITLE": "Üdvözlöm az önéletrajzomban",
-    "DESCRIPTION": "Nagy Martin vagyok, kézilabda kapus és szoftverfejlesztő."
+    "INTRO": "Szia, Martin vagyok!",
+    "DESCRIPTION": "Hivatásos kézilabda kapus és szenvedélyes full-stack fejlesztő vagyok Svédországban. Szeretek webalkalmazásokat készíteni Angular, React és Node.js technológiákkal – ahol a design, teljesítmény és funkcionalitás találkozik."
   },
   "NOT_FOUND": {
     "TITLE": "Az oldal nem található",

@@ -1,7 +1,7 @@
 {
   "HOME": {
-    "TITLE": "Willkommen zu meinem Lebenslauf",
-    "DESCRIPTION": "Ich bin Martin Nagy, Handballtorwart und Softwareentwickler."
+    "INTRO": "Hallo, ich bin Martin!",
+    "DESCRIPTION": "Ich bin ein professioneller Handballtorwart und leidenschaftlicher Full-Stack-Entwickler mit Sitz in Schweden. Ich entwickle Web-Anwendungen mit Angular, React und Node.js – mit Fokus auf Design, Leistung und Funktionalität."
   },
   "NOT_FOUND": {
     "TITLE": "Seite nicht gefunden",

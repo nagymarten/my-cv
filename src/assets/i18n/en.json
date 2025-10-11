@@ -1,7 +1,7 @@
 {
   "HOME": {
-    "TITLE": "Welcome to my CV",
-    "DESCRIPTION": "I am Martin Nagy, handball goalkeeper and software developer."
+    "INTRO": "Hi, I’m Martin!",
+    "DESCRIPTION": "I’m a professional handball goalkeeper and passionate full-stack developer based in Sweden. I love building web applications with Angular, React, and Node.js — combining design, performance, and functionality."
   },
   "NOT_FOUND": {
     "TITLE": "Page not found",
