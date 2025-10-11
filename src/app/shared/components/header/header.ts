@@ -10,7 +10,6 @@ import { AvatarModule } from 'primeng/avatar';
 import { InputTextModule } from 'primeng/inputtext';
 import { CommonModule } from '@angular/common';
 
-
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -22,7 +21,7 @@ import { CommonModule } from '@angular/common';
     AvatarModule,
     DarkModeButton,
     InputTextModule,
-    CommonModule
+    CommonModule,
   ],
   templateUrl: './header.html',
   styleUrls: ['./header.css'],
@@ -43,9 +42,7 @@ export class Header implements OnInit {
   private buildItems() {
     this.items = [
       { label: this.t('NAV.HOME'), icon: 'pi pi-home', routerLink: '/' },
-      { label: this.t('NAV.ABOUT'), icon: 'pi pi-user', routerLink: '/about' },
       { label: this.t('NAV.PROJECTS'), icon: 'pi pi-code', routerLink: '/projects' },
-      { label: this.t('NAV.CAREER'), icon: 'pi pi-trophy', routerLink: '/career' },
       { label: this.t('NAV.CONTACT'), icon: 'pi pi-envelope', routerLink: '/contact' },
     ];
   }
