@@ -9,6 +9,7 @@ import { DarkModeButton } from './dark-mode-button/dark-mode-button';
 import { AvatarModule } from 'primeng/avatar';
 import { InputTextModule } from 'primeng/inputtext';
 import { CommonModule } from '@angular/common';
+import { SocialLinks } from '../social-links/social-links';
 
 @Component({
   selector: 'app-header',
@@ -22,6 +23,7 @@ import { CommonModule } from '@angular/common';
     DarkModeButton,
     InputTextModule,
     CommonModule,
+    SocialLinks,
   ],
   templateUrl: './header.html',
   styleUrls: ['./header.css'],
@@ -43,7 +45,6 @@ export class Header implements OnInit {
     this.items = [
       { label: this.t('NAV.HOME'), icon: 'pi pi-home', routerLink: '/' },
       { label: this.t('NAV.PROJECTS'), icon: 'pi pi-code', routerLink: '/projects' },
-      { label: this.t('NAV.CONTACT'), icon: 'pi pi-envelope', routerLink: '/contact' },
     ];
   }
 
