@@ -1,0 +1,50 @@
+<div class="p-2 flex items-center justify-center surface-border">
+  <p-card
+    [style]="{
+      width: '100%',
+      overflow: 'hidden',
+      border: '1px solid var(--p-content-border-color)'
+    }"
+  >
+    <ng-template #footer>
+      <div class="flex flex-wrap items-center justify-center gap-4 m-2">
+        <a href="https://github.com/nagymarten" target="_blank" rel="noopener" class="no-underline">
+          <p-button
+            label="GitHub"
+            severity="secondary"
+            icon="pi pi-github"
+            size="small"
+            [outlined]="true"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/yourusername"
+          target="_blank"
+          rel="noopener"
+          class="no-underline"
+        >
+          <p-button
+            label="LinkedIn"
+            severity="secondary"
+            icon="pi pi-linkedin"
+            size="small"
+            [outlined]="true"
+          />
+        </a>
+        <a href="mailto:nagy.martin196@gmail.com" class="no-underline">
+          <p-button
+            label="Email"
+            icon="pi pi-envelope"
+            size="small"
+            severity="secondary"
+            [outlined]="true"
+          />
+        </a>
+      </div>
+
+      <div class="flex items-center justify-center mt-5">
+        © {{ currentYear }} Martin Nagy — All rights reserved.
+      </div>
+    </ng-template>
+  </p-card>
+</div>

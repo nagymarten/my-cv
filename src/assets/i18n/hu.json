@@ -1,7 +1,71 @@
 {
   "HOME": {
-    "INTRO": "Szia, Martin vagyok!",
-    "DESCRIPTION": "Hivatásos kézilabda kapus és szenvedélyes full-stack fejlesztő vagyok Svédországban. Szeretek webalkalmazásokat készíteni Angular, React és Node.js technológiákkal – ahol a design, teljesítmény és funkcionalitás találkozik."
+    "INTRO": "Szia, Martin vagyok – szoftverfejlesztő és kézilabda kapus",
+    "DESCRIPTION": "Skálázható webalkalmazásokat fejlesztek (Angular/React), és profi szinten kézilabdázom Európában.",
+    "BUTTONS": {
+      "SEE_IT": "Önéletrajz",
+      "SEE_HANDBALL": "Kézilabda önéletrajz",
+      "READ_MORE": "Részletek"
+    },
+    "IT": {
+      "TITLE": "Tapasztalat & Tanulmányok",
+      "EVENTS": {
+        "DRIVING": {
+          "NAME": "B kategóriás jogosítvány (EU)",
+          "DATE": "2017",
+          "DESC": "EU jogosítvány."
+        },
+        "ENGLISH": {
+          "NAME": "Euroexam B2 angol – komplex",
+          "DATE": "2021",
+          "DESC": "B2 szintű angol nyelvvizsga."
+        },
+        "INTERNSHIP": {
+          "NAME": "IT gyakornok – Szegedi Tudományegyetem",
+          "DATE": "2019. június – 2019. szeptember",
+          "DESC": "Szoftver/hardver telepítés laborokban; IT csapat támogatása."
+        },
+        "INGENIMIND": {
+          "NAME": "Szoftverfejlesztő – Ingenimind Kft.",
+          "DATE": "2024. január – jelenleg",
+          "DESC": "Angular és C# fejlesztés; skálázható funkciók, csapatmunka."
+        },
+        "BSC": {
+          "NAME": "BSc programtervező informatikus",
+          "DATE": "2025",
+          "DESC": "Szegedi Tudományegyetem – TTIK (Szeged, Magyarország)."
+        }
+      }
+    },
+    "HANDBALL": {
+      "TITLE": "Kézilabda pályafutás",
+      "EVENTS": {
+        "VALUR": {
+          "NAME": "Valur Reykjavik (Izland)",
+          "DATE": "2020. július – 2021. június",
+          "DESC": "Izlandi élvonal; Izlandi bajnok."
+        },
+        "GUMMERSBACH": {
+          "NAME": "VfL Gummersbach (Németország)",
+          "DATE": "2021. július – 2023. június",
+          "DESC": "2. Bundesliga bajnok; feljutás a Bundesligába."
+        },
+        "SZEGED": {
+          "NAME": "Pick Szeged (Magyarország)",
+          "DATE": "2023. július – 2025. június",
+          "DESC": "NB I & EHF BL; Magyar Kupa-győztes."
+        },
+        "FREDERICIA": {
+          "NAME": "Kölcsön: Fredericia HK (Dánia)",
+          "DATE": "2024. december",
+          "DESC": "Rövid távú téli kölcsön a keret megerősítésére."
+        },
+        "OV_HELSINGBORG": {
+          "NAME": "OV Helsingborg (Svédország)",
+          "DATE": "2025. julius – jelenleg"
+        }
+      }
+    }
   },
   "NOT_FOUND": {
     "TITLE": "Az oldal nem található",

@@ -1,7 +1,71 @@
 {
   "HOME": {
-    "INTRO": "Hallo, ich bin Martin!",
-    "DESCRIPTION": "Ich bin ein professioneller Handballtorwart und leidenschaftlicher Full-Stack-Entwickler mit Sitz in Schweden. Ich entwickle Web-Anwendungen mit Angular, React und Node.js – mit Fokus auf Design, Leistung und Funktionalität."
+    "INTRO": "Hi, ich bin Martin – Softwareentwickler & Profi-Handballtorwart",
+    "DESCRIPTION": "Ich entwickle skalierbare Webanwendungen (Angular/React) und spiele Handball in Europa.",
+    "BUTTONS": {
+      "SEE_IT": "Lebenslauf",
+      "SEE_HANDBALL": "Handball-Lebenslauf",
+      "READ_MORE": "Mehr lesen"
+    },
+    "IT": {
+      "TITLE": "Erfahrung & Ausbildung",
+      "EVENTS": {
+        "DRIVING": {
+          "NAME": "Führerschein Klasse B (EU)",
+          "DATE": "2017",
+          "DESC": "EU-Fahrerlaubnis."
+        },
+        "ENGLISH": {
+          "NAME": "Euroexam B2 Englisch – Komplex",
+          "DATE": "2021",
+          "DESC": "B2-Sprachzertifikat Englisch."
+        },
+        "INTERNSHIP": {
+          "NAME": "IT-Praktikant – Universität Szeged",
+          "DATE": "Juni 2019 – September 2019",
+          "DESC": "Software/Hardware in Laboren bereitgestellt; IT-Team unterstützt."
+        },
+        "INGENIMIND": {
+          "NAME": "Softwareentwickler – Ingenimind Kft.",
+          "DATE": "Januar 2024 – heute",
+          "DESC": "Angular & C#; funktionsübergreifende Zusammenarbeit; skalierbare Features."
+        },
+        "BSC": {
+          "NAME": "BSc in Informatik",
+          "DATE": "2025",
+          "DESC": "Universität Szeged – Fakultät für Naturwissenschaften und Informatik (Szeged, Ungarn)."
+        }
+      }
+    },
+    "HANDBALL": {
+      "TITLE": "Handballkarriere",
+      "EVENTS": {
+        "VALUR": {
+          "NAME": "Valur Reykjavik (Island)",
+          "DATE": "Juli 2020 – Juni 2021",
+          "DESC": "Isländische Top-Liga; Isländischer Meister."
+        },
+        "GUMMERSBACH": {
+          "NAME": "VfL Gummersbach (Deutschland)",
+          "DATE": "Juli 2021 – Juni 2023",
+          "DESC": "Meister 2. Bundesliga; Aufstieg in die Bundesliga."
+        },
+        "SZEGED": {
+          "NAME": "Pick Szeged (Ungarn)",
+          "DATE": "Juli 2023 – Juni 2025",
+          "DESC": "NB I & EHF Champions League; Ungarischer Pokalsieger."
+        },
+        "FREDERICIA": {
+          "NAME": "Leihe: Fredericia HK (Dänemark)",
+          "DATE": "Dezember 2024",
+          "DESC": "Kurzfristige Winterleihe zur Kaderverstärkung."
+        },
+        "OV_HELSINGBORG": {
+          "NAME": "OV Helsingborg (Schweden)",
+          "DATE": "2025. julius – jetzt"
+        }
+      }
+    }
   },
   "NOT_FOUND": {
     "TITLE": "Seite nicht gefunden",

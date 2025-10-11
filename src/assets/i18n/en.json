@@ -1,7 +1,71 @@
 {
   "HOME": {
-    "INTRO": "Hi, I’m Martin!",
-    "DESCRIPTION": "I’m a professional handball goalkeeper and passionate full-stack developer based in Sweden. I love building web applications with Angular, React, and Node.js — combining design, performance, and functionality."
+    "INTRO": "Hi, I'm Martin — Software Developer & Handball Goalkeeper",
+    "DESCRIPTION": "I build scalable web applications (Angular/React) and compete at a professional level in European handball.",
+    "BUTTONS": {
+      "SEE_IT": "See CV",
+      "SEE_HANDBALL": "See handball CV",
+      "READ_MORE": "Read more"
+    },
+    "IT": {
+      "TITLE": "Experience & Education",
+      "EVENTS": {
+        "DRIVING": {
+          "NAME": "Category B Driving Licence (EU)",
+          "DATE": "2017",
+          "DESC": "Licensed EU driver."
+        },
+        "ENGLISH": {
+          "NAME": "Euroexam B2 English – Complex",
+          "DATE": "2021",
+          "DESC": "B2 Complex Language Certificate."
+        },
+        "INTERNSHIP": {
+          "NAME": "IT Intern – University of Szeged",
+          "DATE": "June 2019 – September 2019",
+          "DESC": "Deployed/configured lab systems; supported the IT team."
+        },
+        "INGENIMIND": {
+          "NAME": "Software Developer – Ingenimind Kft.",
+          "DATE": "January 2024 – Present",
+          "DESC": "Angular & C# apps; cross-functional collaboration; scalable features."
+        },
+        "BSC": {
+          "NAME": "BSc in Computer Science",
+          "DATE": "2025",
+          "DESC": "University of Szeged – Faculty of Science and Informatics (Szeged, Hungary)."
+        }
+      }
+    },
+    "HANDBALL": {
+      "TITLE": "Handball Career",
+      "EVENTS": {
+        "VALUR": {
+          "NAME": "Valur Reykjavik (Iceland)",
+          "DATE": "July 2020 – June 2021",
+          "DESC": "Icelandic top league; Icelandic champion."
+        },
+        "GUMMERSBACH": {
+          "NAME": "VfL Gummersbach (Germany)",
+          "DATE": "July 2021 – June 2023",
+          "DESC": "2. Bundesliga champion; promoted to Bundesliga."
+        },
+        "SZEGED": {
+          "NAME": "Pick Szeged (Hungary)",
+          "DATE": "July 2023 – June 2025",
+          "DESC": "NB I & EHF Champions League; Hungarian Cup winner."
+        },
+        "FREDERICIA": {
+          "NAME": "Loan: Fredericia HK (Denmark)",
+          "DATE": "December 2024",
+          "DESC": "Temporary winter loan for match reinforcement."
+        },
+        "OV_HELSINGBORG": {
+          "NAME": "OV Helsingborg (Svédország)",
+          "DATE": "2025. July – Present"
+        }
+      }
+    }
   },
   "NOT_FOUND": {
     "TITLE": "Page not found",
